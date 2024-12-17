@@ -5,7 +5,22 @@ body {
     background-color: antiquewhite;
     height: 100vh;
     width: 100vw;
+    display: block;
+}
+
+.container {
     display: flex;
+    height: -webkit-fill-available;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.count {
+    font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    display: block;
+    margin-top: 3px;
+    font-size: small;
 }
 
 .btn {
@@ -35,7 +50,6 @@ body {
     touch-action: manipulation;
     width: 100%;
     will-change: transform;
-    margin: auto;
 }
 
 .btn:disabled {
